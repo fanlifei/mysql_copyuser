@@ -6,8 +6,9 @@
   pymysql、argparse
 ## 2、用法
   1、帮助文档
- ``` python mysql_copyuser.py --help
-  usage: copyuser.py [-h HOST] [-u USER] [-p PASSWORD] [-P PORT]
+ ``` 
+ python mysql_copyuser.py --help
+  usage: mysql_copyuser.py [-h HOST] [-u USER] [-p PASSWORD] [-P PORT]
                    [--src-user [SRCUSER [SRCUSER ...]]]
                    [--src-host [SRCHOST [SRCHOST ...]]]
                    [--dest-user [DESTUSER [DESTUSER ...]]]
